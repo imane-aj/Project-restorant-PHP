@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-image: linear-gradient(rgb(0 0 0 / 75%), rgb(0 0 0 / 0%)), url('../img/tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil-tree-branches.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 8*/
+}
+
+
+/* navBar
+
+.logo {
+    color: #444;
+    font-size: 20px;
+    text-shadow: 1px 0px 2px #444;
+    font-weight: bold;
+}
+
+.logo .fas {
+    color: #e13b00;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    
+
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left: 16em;
+color: #444;
+text-shadow: 1px 0px 2px #444;
+font-weight: bold;
+font-size: 1.8em;
+
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #fff;
+    box-shadow: 2px 2px 4px 1px #ad9f9f;
+    font-size: 0.8em;
+    padding: 1px;
+}
+.d-flex .btn {
+    color: #444;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #444;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+*/
+
+
+/* Container*/
+
+.site {
+    max-width: 80%;
+    margin-bottom: 7px;
+    font-family: 'Holtwood One SC', serif;
+    margin-bottom: 8%;
+    margin-top: 4%;
+}
+
+
+/* partie Nav Items */
+
+.nav-tabs .nav-link {
+    color: #444;
+    
+    background-color: unset;
+}
+
+.nav-tabs .nav-link.active {
+    color: #ffffffde;
+    background-color: #e7480f;
+    border-color: #e7480f;
+    border: unset;
+}
+
+.nav-tabs {
+    border-bottom: unset;
+}
+
+.nav-tabs .nav-link:hover {
+    border: unset;
+    background-color: #e7480f;
+    color: #ffffffde;
+    border-color: #e7480f;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+
+.logOut {
+    float: right;
+    display: inline-flex;
+    margin-left: 254px;
+    margin-top: -27px;
+    color: #fff;
+    font: menu;
+    font-weight: bold;
+    border-bottom-right-radius: 0;
+    background-color: #e7480f;
+    box-shadow: -2px 1px 8px 0px #ffd301;
+}
+
+
+/* partie imaaage price ...etc*/
+
+.ctn {
+    margin-top: 17px;
+    position: relative;
+}
+
+img {
+    background-color: rgba(252, 252, 233, 0.904) !important;
+}
+
+.price {
+    background-color: lawngreen;
+    padding: 1px 7px;
+    border-radius: 2px;
+    color: #ffffffde;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 27px;
+    right: -3px;
+}
+
+.caption p {
+    font-size: .6em;
+}
+
+.caption h4 {
+    color: #e7480f;
+    font-size: .9em;
+    padding-top: 5px;
+}
+
+.caption .glyphicon {
+    color: #ffffffde;
+}
+
+a:not([href]) {
+    color: #ffffffde;
+    background-color: #e7480f;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+/*.admin {
+    background: #fff !important;
+    margin-bottom: 55px;
+    padding: 10px 23px;
+    border-radius: 6px;
+    box-shadow: -5px -6px 4px #444;
+    margin-top: 58px;
+}
+
+.btn-success {
+    padding: 6px 17px;
+}
+
+.view {
+    max-width: 891px;
+    margin-top: 29px;
+}
+
+.error {
+    display: block;
+    color: chocolate;
+}*/
+
+
+/*.sign {
+    display: flex;
+    /* float: right !important; 
+    margin-left: 30%;
+}
+
+.vertical-bar {
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.sign-icon {
+    height: 60%;
+    width: 80%;
+}
+
+.sign-icon .fas {
+    margin: 45px 23px;
+    display: block;
+    color: rgb(241, 228, 228);
+    text-shadow: 2px 2px #e7480f;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sign-icon .fas .sip {
+    font-size: 20px;
+}*/
+
+.logo {
+    text-shadow: 2px 2px #ffd301;
+    color: #e7480f;
+    padding: 6px 0;
+    font-size: 2em;
+    margin-top: 24px;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.fa-utensils {
+    color: #ffd301;
+    font-size: 1.5em;
+    text-shadow: 2px 1px 3px #e7480e;
+}

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/tomatoes-tomatoes-lemon-leaves-garlic-bottle-oil-tree-branches.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site {
+    max-width: 891px;
+    margin-bottom: 55px;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.logo {
+    text-shadow: 2px 2px #ffd301;
+    color: #e7480f;
+    padding: 6px 0;
+    font-size: 2em;
+    margin-top: 24px;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.fa-utensils {
+    color: #ffd301;
+    font-size: 1.5em;
+    text-shadow: 2px 1px 3px #e7480e;
+}
+
+.ctn {
+    margin-top: 17px;
+}
+
+img {
+    background-color: yellow !important;
+}
+
+.price {
+    position: absolute;
+    top: 44px;
+    right: 11px;
+    background-color: lawngreen;
+    padding: 1px 7px;
+    border-radius: 2px;
+    color: #ffffffde;
+    text-shadow: 2px 2px black;
+}
+
+.caption p {
+    font-size: .6em;
+}
+
+.caption h4 {
+    color: #e7480f;
+    font-size: .9em;
+    padding-top: 5px;
+}
+
+.caption .glyphicon {
+    color: #ffffffde;
+}
+
+a:not([href]) {
+    color: #ffffffde;
+    background-color: #e7480f;
+    width: 100%;
+    font-size: 14px;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    text-shadow: 2px 2px #e7480f;
+    background-color: unset;
+}
+
+.nav-tabs .nav-link.active {
+    color: #ffffffde;
+    background-color: #e7480f;
+    border-color: #e7480f;
+    border: unset;
+}
+
+.nav-tabs {
+    border-bottom: unset;
+}
+
+.nav-tabs .nav-link:hover {
+    border: unset;
+    background-color: #e7480f;
+    color: #ffffffde;
+    border-color: #e7480f;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+
+.admin {
+    background: #fff !important;
+    margin-bottom: 55px;
+    padding: 10px 23px;
+    border-radius: 6px;
+    box-shadow: -5px -6px 4px #444;
+    margin-top: 58px;
+}
+
+.btn-success {
+    padding: 6px 17px;
+}
+
+.view {
+    max-width: 891px;
+    margin-top: 29px;
+}
+
+.error {
+    display: block;
+    color: chocolate;
+}
+
+.sign {
+    display: flex;
+    /* float: right !important; */
+    margin-left: 30%;
+}
+
+
+}

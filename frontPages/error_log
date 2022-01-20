@@ -1,0 +1,7 @@
+[08-Oct-2021 20:09:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to): sdv in /home/ajroudim/public_html/portfolio/project-restaurant/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php:1092
+Stack trace:
+#0 /home/ajroudim/public_html/portfolio/project-restaurant/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'sdv', '')
+#1 /home/ajroudim/public_html/portfolio/project-restaurant/frontPages/validationForm.php(74): PHPMailer\PHPMailer\PHPMailer->addAddress('sdv')
+#2 /home/ajroudim/public_html/portfolio/project-restaurant/frontPages/frontPage.php(2): require('/home/ajroudim/...')
+#3 {main}
+  thrown in /home/ajroudim/public_html/portfolio/project-restaurant/phpmailer/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1092
